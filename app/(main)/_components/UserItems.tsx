@@ -67,8 +67,8 @@ const UserItems = () => {
 
                 <DropdownMenuSeparator />
 
-                <DropdownMenuItem asChild className="w-full cursor-pointer text-muted-foreground ">
-                    <SignOutButton className='flex uppercase items-center justify-center font-bold w-full'>
+                <DropdownMenuItem asChild className="w-full cursor-pointer text-muted-foreground flex uppercase items-center justify-center font-bold ">
+                    <SignOutButton >
                         log out
                     </SignOutButton>
                 </DropdownMenuItem>

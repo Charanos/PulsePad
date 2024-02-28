@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
-const Error = () => {
+const ErrorPage = () => {
     return (
         <div className="flex flex-col h-[100vh] items-center justify-center space-y-4">
             <Image
@@ -32,4 +32,4 @@ const Error = () => {
     );
 };
 
-export default Error;
+export default ErrorPage;
